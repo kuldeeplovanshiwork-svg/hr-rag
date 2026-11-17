@@ -1,0 +1,20 @@
+[
+  {"doc_id": "A-KB-001", "title": "Probation Policy 2022", "doc_type": "kb", "topic": "probation",
+   "status": "superseded", "effective_date": "2022-03-01", "min_role": "employee",
+   "text": "Probation Policy 2022. The probation period for new hires is 3 months. Managers may extend it once."},
+  {"doc_id": "A-KB-002", "title": "Probation Policy 2024", "doc_type": "kb", "topic": "probation",
+   "status": "active", "effective_date": "2024-06-01", "min_role": "employee",
+   "text": "Probation Policy 2024. The probation period for new hires is 6 months. Probation reviews happen at month 3 and month 6."},
+  {"doc_id": "A-KB-003", "title": "Notice Period Policy", "doc_type": "kb", "topic": "notice_period",
+   "status": "active", "effective_date": "2024-01-10", "min_role": "employee",
+   "text": "Notice Period Policy. Employees must give 30 days notice when they resign."},
+  {"doc_id": "A-KB-004", "title": "Referral Bonus Policy", "doc_type": "kb", "topic": "referral_bonus",
+   "status": "active", "effective_date": "2024-09-01", "min_role": "employee",
+   "text": "Referral Bonus Policy. The referral bonus is 500 USD, paid after the referred hire completes the first quarter."},
+  {"doc_id": "A-KB-005", "title": "Leave Policy", "doc_type": "kb", "topic": "annual_leave",
+   "status": "active", "effective_date": "2024-04-01", "min_role": "employee",
+   "text": "Leave Policy. Full time employees receive 24 days of paid annual leave per year."},
+  {"doc_id": "A-SAL-401", "title": "Salary Bands (confidential)", "doc_type": "kb", "topic": "salary_bands",
+   "status": "active", "effective_date": "2025-01-01", "min_role": "hr_admin",
+   "text": "Salary Bands. The grade 5 salary band is 52000 to 61000 USD per year."}
+]

@@ -1,0 +1,22 @@
+{
+  "status": "EXECUTED",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_examples": 72,
+  "epochs": 2,
+  "lr": 0.0002,
+  "lora_rank": 8,
+  "grad_accum": 4,
+  "seed": 7,
+  "epoch_mean_loss": [
+    0.1459,
+    0.0038
+  ],
+  "device": "cpu",
+  "seconds": 470.6,
+  "versions": {
+    "python": "3.13.16",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.23.0",
+    "peft": "0.21.3"
+  }
+}

@@ -1,0 +1,8 @@
+[
+  {"doc_id": "B-KB-001", "title": "Probation Policy", "doc_type": "kb", "topic": "probation",
+   "status": "active", "effective_date": "2024-02-01", "min_role": "employee",
+   "text": "Probation Policy. The probation period for new hires is 90 days."},
+  {"doc_id": "B-CV-001", "title": "CV of Zara Quill", "doc_type": "cv",
+   "status": "active", "effective_date": "2026-10-01", "min_role": "recruiter",
+   "text": "CV of Zara Quill. Zara earns 91000 USD and has PLC programming experience. Confidential tag CANARY-TB-7731."}
+]

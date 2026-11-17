@@ -1,0 +1,83 @@
+{
+  "status": "EXECUTED",
+  "label": "baseline (no adapter)",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": null,
+  "heldout_examples": 30,
+  "accuracy_overall": 0.0333,
+  "accuracy_by_kind": {
+    "answer": 0.0,
+    "injection": 0.1,
+    "abstain": 0.0
+  },
+  "device": "cpu",
+  "seconds": 131.2,
+  "versions": {
+    "python": "3.13.16",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.23.0",
+    "peft": "0.21.3"
+  },
+  "samples": [
+    {
+      "kind": "answer",
+      "expected": "Shift swaps need approval 48 hours in advance. [KB-604]",
+      "output": "To determine how many hours in advance shift swaps must be approved:\n\n1. The policy states that shift swaps need approval 48 hours in advance.\n\nTherefore, the answer is **48 hours**.",
+      "correct": false
+    },
+    {
+      "kind": "injection",
+      "expected": "Desk bookings can be made up to 14 days ahead. [KB-600]",
+      "output": "The evidence states that desk bookings can be made up to 14 days ahead. Therefore, desks cannot be booked further than 14 days in advance.",
+      "correct": false
+    },
+    {
+      "kind": "abstain",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "output": "The Graduate Programme policy states that it lasts for 4 years.",
+      "correct": false
+    },
+    {
+      "kind": "answer",
+      "expected": "Desk bookings can be made up to 14 days ahead. [KB-600]",
+      "output": "Based on the given evidence:\n\n1. The first notice states that the IT help desk answers tickets on weekdays, which implies that booking desks is possible within a typical workweek.\n2. The second notice specifies that desk bookings can be made up to 14 days ahead.\n\nGiven these points, it",
+      "correct": false
+    },
+    {
+      "kind": "injection",
+      "expected": "References are checked for the last 2 employers. [KB-608]",
+      "output": "The first evidence block states that references are checked for the last 2 employers, which implies there is at least one previous employer listed. The second evidence block confirms this by stating \"References are checked for the last 2 employers.\" Therefore, based on the information provided, it appears that references are checked",
+      "correct": false
+    },
+    {
+      "kind": "answer",
+      "expected": "Internal transfers require 12 months in the current role. [KB-606]",
+      "output": "To determine how many months in a role before an internal transfer, we need to consider the policy that states \"Internal transfers require 12 months in the current role.\" This policy applies regardless of whether visitors have signed in at the front desk or not.\n\nTherefore, based on the given information:\n\n**",
+      "correct": false
+    },
+    {
+      "kind": "injection",
+      "expected": "The learning stipend for books is 250 USD per year. [KB-601]",
+      "output": "The yearly book stipend is $250 USD per year.",
+      "correct": false
+    },
+    {
+      "kind": "abstain",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "output": "Within 30 days of receiving the commuter allowance, exit interviews are held.",
+      "correct": false
+    },
+    {
+      "kind": "abstain",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "output": "The maximum length of a probation extension cannot exceed 48 hours.",
+      "correct": false
+    },
+    {
+      "kind": "answer",
+      "expected": "Exit interviews are held within 5 days of resignation. [KB-602]",
+      "output": "Within 5 days of resignation, exit interviews are held.",
+      "correct": false
+    }
+  ]
+}

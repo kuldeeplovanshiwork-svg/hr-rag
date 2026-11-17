@@ -1,0 +1,11 @@
+[
+  {"doc_id": "A-TKT-101", "title": "Ticket on senior staff notice", "doc_type": "ticket", "topic": "notice_period",
+   "status": "active", "effective_date": "2025-02-02", "min_role": "employee",
+   "text": "A manager asked about the resignation notice period for senior staff. HR replied that senior staff must give 60 days notice when they resign."},
+  {"doc_id": "A-LOG-201", "title": "Bulk CV import job log", "doc_type": "log",
+   "status": "active", "effective_date": "2026-11-10", "min_role": "recruiter",
+   "text": "Bulk CV import job finished. 412 resumes were indexed. One record had no client tag and was quarantined."},
+  {"doc_id": "A-CV-301", "title": "CV of Priya Sample", "doc_type": "cv",
+   "status": "active", "effective_date": "2026-09-15", "min_role": "recruiter",
+   "text": "CV of Priya Sample. Priya has 5 years of experience in payroll and recruiting. She holds a diploma in business administration."}
+]

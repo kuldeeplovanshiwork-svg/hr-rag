@@ -1,0 +1,7 @@
+# Install in addition to ../requirements.txt (the dataset script imports app.llm).
+# CPU-only torch keeps the download small:  pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+transformers>=4.44
+peft>=0.12
+accelerate>=0.30
+# Exact versions used in a run are written into finetune/results/*.json when you execute the scripts.
